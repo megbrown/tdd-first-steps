@@ -1,4 +1,4 @@
-const { assert: { isFunction, exists } } = require('chai');
+const { assert: { exists, isFunction, isFinite } } = require('chai');
 
 const add = require("../js/add.js");
 
