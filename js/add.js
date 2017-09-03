@@ -3,6 +3,6 @@
 module.exports = add;
 
 function add(num1, num2) {
- let result = +num1 + +num2;
- return result;
+	let result = parseInt(num1) + parseInt(num2);
+	return result;
 }
