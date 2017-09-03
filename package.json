@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "emocha --watch --recursive -R spec"
+    "test": "mocha --watch --recursive -R spec"
   },
   "keywords": [],
   "author": "",
